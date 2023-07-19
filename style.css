@@ -1,0 +1,98 @@
+.flag{
+    background-color:#FF671F;
+    height:600px;
+    width:100%;
+    position:relative;
+   }
+   .flag > div{
+    background-color: #FFFFFF;
+    height:200px;
+    width:100%;
+    position:absolute;
+    top:200px;
+   }
+   .flag > div > div > div{
+    background-color:#046A38;
+    height:200px;
+    width:100%;
+    position:absolute;
+    top:200px;
+   }
+   .flag> div > div > p{
+    background-color:#06038D;
+    height:100px;
+    width:100px;
+    border-radius:200px;
+    position:absolute;
+    left:45%;
+    top:30px;
+   }
+   @media (min-width:200px) and (max-width:299px){
+    .flag> div > div > p{
+      position: relative;
+        left:80px;
+    }
+   }
+   @media (min-width:300px) and (max-width:350px)
+   {
+    .flag> div > div > p{
+    position: relative;
+      left:115px;
+    }  
+   }
+   @media (min-width:350px) and (max-width:380px)
+   {
+    .flag> div > div > p{
+    position: relative;
+      left:120px;
+    }  
+   }
+   @media (min-width:380px) and (max-width:400px)
+   {
+    .flag> div > div > p{
+    position: relative;
+      left:135px;
+    }  
+   }
+   
+   @media (min-width:400px) and (max-width:450px){
+    .flag> div > div > p{
+      position: relative;
+        left:150px;
+    }
+   }
+   @media (min-width:450px) and (max-width:500px)
+   {
+    .flag> div > div > p{
+    position: relative;
+      left:180px;
+    }  
+   }
+   @media (min-width:500px) and (max-width:550px){
+    .flag> div > div > p{
+      position: relative;
+        left:200px;
+    }
+   }
+   @media (min-width:550px) and (max-width:600px)
+   {
+    .flag> div > div > p{
+    position: relative;
+      left:210px;
+    }  
+   }
+   @media (min-width:600px) and (max-width:650px)
+   {
+    .flag> div > div > p{
+    position: relative;
+      left:230px;
+    }  
+   }
+  @media(min-width:650px) and (max-width:700px)
+   {
+    .flag> div > div > p{
+      position: relative;
+        left:265px;
+    }
+   }
+   
